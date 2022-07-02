@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{aaf62d16-e268-4377-8c77-dcdefdd1dcb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{16274f50-2c04-4934-a583-dc1c89bf66c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Buffers">
+      <UniqueIdentifier>{7da97939-a083-494b-b527-2dc1c59f7978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{66fcc281-da2a-49df-b416-21730ca3397f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui">
+      <UniqueIdentifier>{7764bb5e-a3cc-4ab1-b603-ee57c9cbdebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Buffers">
+      <UniqueIdentifier>{deb7e368-c1d8-4643-95d0-76cc99422cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models">
+      <UniqueIdentifier>{c2e5a77b-ec6f-48e6-a72e-c3e605284984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imgui">
+      <UniqueIdentifier>{84d71450-1e84-44af-b8cb-515417981551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{88567951-efd4-495f-8bca-3c8fbb9dbd38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{1e43e2a3-85ee-4973-96e8-4fbac0277d99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lights">
+      <UniqueIdentifier>{ba73dea4-14a2-4490-9219-c6343297d01a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lights">
+      <UniqueIdentifier>{f5f23a6f-af9c-4127-8cb9-3924ee109a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Textures">
+      <UniqueIdentifier>{3310d51b-045a-4a75-bed9-df1a11ab00c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Textures">
+      <UniqueIdentifier>{c25aee25-6161-46f8-9e0c-45ca786756e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Shadow Shaders">
+      <UniqueIdentifier>{715759a9-6e46-4c81-98ff-1a3025697543}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EBO.cpp">
+      <Filter>Source Files\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="VAO.cpp">
+      <Filter>Source Files\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO.cpp">
+      <Filter>Source Files\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\include\imgui\imgui_tables.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\include\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\include\imgui\imgui.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\include\imgui\imgui_demo.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\include\imgui\imgui_draw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\include\imgui\imgui_impl_glfw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\include\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="pointlight.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="dirlight.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="spotlight.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="texture2D.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="cubemap.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh2D.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh3D.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="default.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </Text>
+    <Text Include="default.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </Text>
+    <Text Include="explode.gs">
+      <Filter>Resource Files\Shaders</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAO.h">
+      <Filter>Header Files\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="EBO.h">
+      <Filter>Header Files\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO.h">
+      <Filter>Header Files\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\include\imgui\imstb_textedit.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\include\imgui\imstb_truetype.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\include\imgui\imconfig.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\include\imgui\imgui.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\include\imgui\imgui_impl_glfw.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\include\imgui\imgui_impl_opengl3.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\include\imgui\imgui_internal.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\include\imgui\imstb_rectpack.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\include\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="pointlight.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="dirlight.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="spotlight.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="texture2D.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="cubemap.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh2D.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh3D.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="yellow.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="yellow.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="test.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="lightSource.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="lightSource.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="broken.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="instance.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="nolight.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="depth.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="singleColor.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="explode.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="explode.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="normal.gs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="normal.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="framebuffer.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="framebuffer.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="kerneleffects.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="skybox.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="skybox.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="reflect.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="refract.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="hdr.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="blur.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="shadow.frag">
+      <Filter>Resource Files\Shaders\Shadow Shaders</Filter>
+    </None>
+    <None Include="shadow.vert">
+      <Filter>Resource Files\Shaders\Shadow Shaders</Filter>
+    </None>
+    <None Include="instancedShadow.vert">
+      <Filter>Resource Files\Shaders\Shadow Shaders</Filter>
+    </None>
+    <None Include="pointshadow.vert">
+      <Filter>Resource Files\Shaders\Shadow Shaders</Filter>
+    </None>
+    <None Include="pointshadow.frag">
+      <Filter>Resource Files\Shaders\Shadow Shaders</Filter>
+    </None>
+    <None Include="pointshadow.gs">
+      <Filter>Resource Files\Shaders\Shadow Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Downloads\wall.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="heya.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="awesomeface.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="hqdefault.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="cover1.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="coggers-funny.gif">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="coggers.gif">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="container2.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="container2_specular.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="matrix.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="emission.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\blending_transparent_window.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="skybox\right.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="skybox\top.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="skybox\back.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="skybox\bottom.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="skybox\front.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="skybox\left.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="wood.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
